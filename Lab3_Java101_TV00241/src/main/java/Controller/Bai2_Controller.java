@@ -22,6 +22,6 @@ public class Bai2_Controller extends HttpServlet {
         );
 
         req.setAttribute("countries", list);
-        req.getRequestDispatcher("/Bai1.jsp").forward(req, resp);
+        req.getRequestDispatcher("/Bai2.jsp").forward(req, resp);
     }
 }
